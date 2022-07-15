@@ -1,0 +1,274 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+img{
+  width: auto;
+  max-width: 100%;
+}
+
+.banner{
+  width: 100%;
+  min-height: 100vh;
+  background: url('../public/img/theme_maestropizzini_slider1_bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.banner .banner-content{
+  max-width: 550px;
+  transform: translateY(150px);
+}
+
+.banner .banner-content h2{
+  font-family: 'Nunito', sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 50px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.banner .banner-content h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 80px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 35px;
+}
+
+.banner .banner-content p{
+  font-family: 'Nunito', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 35px;
+  color: #fff;
+  margin-bottom: 35px;
+}
+
+a.page-button{
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: rgb(255, 69, 79);
+  color: #fff;
+  padding: 20px 40px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.banner .top-navbar{
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+.banner .top-navbar .navbar-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner .top-navbar .navbar-img img{
+  width: 100%;
+  max-width: 220px;
+  margin: 22px 0;
+}
+
+.banner .top-navbar .navbar-list ul{
+  list-style-type: none;
+  margin: 0;
+}
+
+.banner .top-navbar .navbar-list ul li{
+  display: inline-block;
+}
+
+.banner .top-navbar .navbar-list ul li a{
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 34px;
+  padding: 30px 15px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.banner .top-navbar .navbar-list ul li a:hover{
+  color: rgb(255, 69, 79);
+}
+
+.about-us .about-us-intro{
+  position: relative;
+  padding: 90px 0;
+}
+
+.about-us .about-us-content h2{
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+  color: rgba(37, 37, 37, 0.7);
+  margin-bottom: 20px;
+}
+
+.about-us .about-us-content h3{
+  font-size: 40px;
+  font-weight: 700;
+  color: #252525;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+
+.about-us .about-us-content p{
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 29px;
+  color: #8b8b8b;
+  margin-bottom: 15px;
+}
+
+
+.about-us-info{
+  padding: 60px 0;
+  background: #252525 !important;
+  color: #fff;
+  text-align: center;
+}
+
+.about-us .about-us-info p{
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 60px;
+  margin-bottom: 0;
+}
+
+.about-us .about-us-info span{
+  font-size: 18px;
+  font-weight: 200;
+  font-style: italic;
+  line-height: 24px;
+  opacity: 0.5;
+  text-transform: capitalize;
+}
+
+.menu{
+  background-image: url('../public/img/fastfood-home-section3-background-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.menu .menu-content{
+  text-align: center;
+}
+
+.menu .menu-content h2{
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 25px;
+}
+
+.menu .menu-content p{
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.menu .menu-list ul{
+  list-style-type: none;
+}
+
+.menu .menu-list ul li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px dashed #bfbfbf;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.menu .menu-list ul li:first-child{
+  border-top: 2px dashed #bfbfbf;
+}
+
+.menu .menu-list ul li .menu-item-img{
+  flex-grow: 2;
+}
+
+.menu .menu-list ul li .menu-item-details{
+  flex-grow: 8;
+}
+
+.menu .menu-list ul li .menu-item-details h3{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  color: #252525;
+}
+
+.menu .menu-list ul li .menu-item-details p{
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 29px;
+  color: #888888;
+}
+
+.menu .menu-list ul li .menu-item-price p{
+  font-size: 40px;
+}
+
+.contact-us{
+  background-image: url('../public/img/maestropizzini-contact-bg.jpg');
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact-us .contact-us-content select,
+.contact-us .contact-us-content input{
+  width: 100%;
+  border: 1px solid rgba(37, 37, 37, 0.3);
+  border-radius: 30px;
+  font-weight: 600;
+  margin: 10px 0;
+  padding: 10px 15px;
+  opacity: 0.9;
+  transition: all 0.3s ease-in-out 0s !important;
+}
+
+.contact-us .button{
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.footer{
+  background-color: #252525;
+  color: #fff;
+  padding: 15px 0 5px 0;
+}
+
+.bg-black {
+  transition: background-color 0.5s;
+  background-color: #000;
+}
